@@ -30,3 +30,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.button {
+    display: inline-block;
+    font-size: 2em;
+    padding: 20px 40px;
+    color: white;
+    background-color: #1a0f55;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+        margin: 10px;
+        flex: 1 1 200px;
+}
+
+.button:hover {
+    background-color: #666;
+}
