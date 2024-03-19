@@ -20,5 +20,5 @@
     z-index: -10;
 
     transform: translate(var(--posX),var(--posY));
-    background-image: url('/Testing/MARCAS/CSS/imagenFondoMovil.png');
+    background-image: url('imagenFondoMovil.png');
 }
