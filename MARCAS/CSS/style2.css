@@ -3,12 +3,66 @@ body {
     margin: 0;
     padding: 0;
     background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
-    height: 100vh;
     display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        /* Alinea la barra de navegación en la parte superior */
+        min-height: 100vh;
+        /* Evita que la barra de navegación se superponga al contenido */
+    }
+.navbar {
+    width: 100%;
+    background-color: #1a0f55;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    /* Coloca los elementos a ambos lados */
     align-items: center;
-    justify-content: center;
 }
 
+.navbar-title {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 20px;
+    /* Espacio entre el borde izquierdo y el título */
+}
+
+.navbar-links {
+    padding-right: 20px;
+    /* Espacio entre el borde derecho y los enlaces */
+}
+
+.brand {
+    color: white;
+    font-size: 1.5em;
+    padding-left: 20px;
+    /* Espacio entre el borde izquierdo y el título */
+    font-weight: bold;
+    /* Hace que el texto sea más grueso */
+    text-transform: uppercase;
+    /* Convierte el texto a mayúsculas */
+}
+.nav-link {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    /* Agrega una transición suave al cambio de color de fondo */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    /* Cambia el color de fondo al pasar el cursor sobre el enlace */
+    border-radius: 5px;
+    /* Añade bordes redondeados */
+}
+.nav-link:hover {
+    background-color: #666;
+}
 .container {
     text-align: center;
     max-width: 800px;
