@@ -1,34 +1,50 @@
 <!DOCTYPE html>
-
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Enlaces hacia Páginas Web</title> 
-        <link rel="stylesheet" href="style.css">
 
-        <!-- para el fondo movil -->
-        <link rel="stylesheet" href="./MARCAS/CSS/styleFondoMovil.css">
-        <script src="./MARCAS/js/fondoMovil.js"></script>
-    </head>
-    
-    <div id="fondoMovil">
-    </div>
-    <body onload="bucleMover(0,-50)" onfocus="bucleMover(0,-50)" onblur="parar()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DW1A</title> 
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!--CDN-->
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Lenguajes de Marcas y Entornos de Desarrollo</h1>
+        </div>
+    </header>
 
-
-        <div class="container">
-            <h1>Accesibilidad y Usabilidad</h1>
+<div id="particles-js">
+    <script src="script/app.js"></script>
+            <!-- Versión local -->
+            <!-- <script src="particles.js"></script> -->
+        <h1>Accesibilidad y Usabilidad</h1>
             <div class="link-container">
                 <a href="Accesibilidad/accesibilidad.html" class="link">Accesibilidad</a>
                 <a href="Usabilidad/usabilidad.html" class="link">Usabilidad</a>
             </div>
-        </div>
-        <div class="container">
-            <h1>Lenguaje de Marcas</h1>
+        <h1>Lenguaje de Marcas</h1>
             <div class="link-container">
                 <a href="MARCAS/index.html" class="link">Poesía de ChatGPT</a>
             </div>
-        </div>
-    </body>
+</div>
+<div id="particles-js"></div>
+
+<style>
+    #particles-js {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+</style>
+<footer>
+    <p><span class="copyleft">&copy;</span> Hecho con <span class="hearth">&#x2764;</span>
+            por <a href="https://github.com/joanh">@Joanh </a>- 2024</p>
+</footer>
+</body>
 </html>
